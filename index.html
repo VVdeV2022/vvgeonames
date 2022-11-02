@@ -30,25 +30,49 @@
 				</td>
 
 			</tr>
+			<!-- Row -->
 			<tr>
 				<td>
 					1. weather 
 				</td>
 				<td>
-					Show the weather in uk in english
+					Show the weather in uk in English
 				</td>
 				<td>
 
-					<select hidden id="selCountry" value="GB">
-						
+					<select hidden id="selCountry">
+						<option value="GB">Great Britain</option>
 					</select>
 			
-					<select hidden id="selLanguage" value="en">
+					<select hidden id="selLanguage">
+						<option value="en">English</option>
 					</select>
 
 					<button id="btnRun">Submit</button>
 				</td>
 			</tr>
+<!-- Row -->
+<tr>
+	<td>
+		2. weather 
+	</td>
+	<td>
+		Show the weather in DE in DeUtcHe
+	</td>
+	<td>
+
+		<select hidden id="selCountry">
+			<option value="DE">Germany</option>
+		</select>
+
+		<select hidden id="selLanguage">
+			<option value="de">Deutsche</option>
+		</select>
+
+		<button id="btnRun">Submit</button>
+	</td>
+</tr>
+			<!-- rESULT -->
 			<tr>
 				
 				<td colspan="3" style="height:100px;width:100px">
@@ -62,7 +86,6 @@
 									Continent: 
 								</td>
 								<td id="txtContinent">
-									
 								</td>
 			
 							</tr>
@@ -87,25 +110,8 @@
 			
 							</tr>
 			
-							<tr>
-								<td align="right">
-									Population: 
-								</td>
-								<td id="txtPopulation">
-									
-								</td>
+							
 			
-							</tr>
-			
-							<tr>
-								<td align="right">
-									Area (km<sup>2</sup>): 
-								</td>
-								<td id="txtArea">
-									
-								</td>
-			
-							</tr>
 			
 			
 						</table>
