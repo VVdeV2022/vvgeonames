@@ -1,0 +1,124 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>AJAX/PHP/CURL/JSON example</title>
+		<meta name="description" content="AJAX/PHP/CURL/JSON example">
+		<meta name="author" content="Paddy Evans">
+
+	</head>
+
+	<body>
+
+	
+
+
+		<table border="1">
+			<tr>
+				<td style="height:100px;width:100px">
+					api name
+				</td>
+				<td style="height:100px;width:100px">
+					api desc
+				</td>
+				<td style="height:100px;width:100px">
+					
+				</td>
+
+			</tr>
+			<tr>
+				<td>
+					1. weather 
+				</td>
+				<td>
+					Show the weather in uk in english
+				</td>
+				<td>
+
+					<select hidden id="selCountry" value="GB">
+						
+					</select>
+			
+					<select hidden id="selLanguage" value="en">
+					</select>
+
+					<button id="btnRun">Submit</button>
+				</td>
+			</tr>
+			<tr>
+				
+				<td colspan="3" style="height:100px;width:100px">
+					
+					<div id="divResults">
+			
+						<table>
+			
+							<tr>
+								<td align="right">
+									Continent: 
+								</td>
+								<td id="txtContinent">
+									
+								</td>
+			
+							</tr>
+			
+							<tr>
+								<td align="right">
+									Capital: 
+								</td>
+								<td id="txtCapital">
+									
+								</td>
+			
+							</tr>
+			
+							<tr>
+								<td align="right">
+									Languages: 
+								</td>
+								<td id="txtLanguages">
+									
+								</td>
+			
+							</tr>
+			
+							<tr>
+								<td align="right">
+									Population: 
+								</td>
+								<td id="txtPopulation">
+									
+								</td>
+			
+							</tr>
+			
+							<tr>
+								<td align="right">
+									Area (km<sup>2</sup>): 
+								</td>
+								<td id="txtArea">
+									
+								</td>
+			
+							</tr>
+			
+			
+						</table>
+			
+					</div>
+
+				</td>
+			</tr>
+		</table>
+
+		<script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+		<script type="application/javascript" src="libs/js/script.js"></script>
+
+	</body>
+
+</html>
